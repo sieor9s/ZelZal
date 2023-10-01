@@ -153,7 +153,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit("**- جـارِ حسـاب سرعـة السيرفـر ...**")
+    await event.edit("**- جـارِ حسـاب سرعـة الزق ...**")
     if event.fwd_from:
         return
     #    dirname = event.pattern_match.group(1)
